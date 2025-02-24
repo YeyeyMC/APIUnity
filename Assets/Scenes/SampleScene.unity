@@ -225,7 +225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -94, y: 349}
+  m_AnchoredPosition: {x: 14, y: 349}
   m_SizeDelta: {x: 298.1964, y: 77.2999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &101581528
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Username
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2046,8 +2046,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15ef8e5f52fc0e840a56182049fad48c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  picture: {fileID: 234104189}
-  url: https://rickandmortyapi.com/api/character
+  picture:
+  - {fileID: 234104189}
+  - {fileID: 611648422}
+  - {fileID: 1385935765}
+  - {fileID: 14035369}
+  - {fileID: 1382204817}
+  rickAPI: https://rickandmortyapi.com/api/character
+  myAPI: https://my-json-server.typicode.com/YeyeyMC/APIUnity/users
+  deck:
+  - {fileID: 2066364878}
+  - {fileID: 1618369837}
+  - {fileID: 1471517301}
+  - {fileID: 271744946}
+  - {fileID: 1490017598}
+  dropdown: {fileID: 643914317}
+  user: {fileID: 101581528}
 --- !u!114 &953352991
 MonoBehaviour:
   m_ObjectHideFlags: 0
